@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: #eee;
+    height: 100vh;
+}
+
+main {
+    min-height: 100%;
+}
+
+
+
+h1 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+
+
+/* name and title */
+.name {
+    text-shadow: 1px 1px 9px darkgrey;
+    
+}
+
+
+/* container navigation */
+.top-nav {
+    display: flex;
+    background: rgb(104, 168, 104);
+    justify-content: flex-end;
+}
+
+/* navigation links */
+.top-nav a {
+    margin-right: 50px;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    padding: 20px 0;
+}
+
+nav a:hover {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+nav .active {
+    text-decoration: underline;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background: rgb(104, 168, 104);
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* container copyright */
+.copy {
+    padding-left: 20px;
+}
+
+/* text copyright */
+.copyright {
+    font-size: 13px;
+}
+
+/* container social icons */
+.social {
+    padding: 10px 50px;
+}
+
+/* social links */
+.social a {
+    text-decoration: none;
+
+}
+
+/* social icons */
+.social1 {
+    width: 45px;
+    height: 45px;
+}
+
+.social2 {
+    width: 45px;
+    height: 45px;
+
+}
+
+/* media query */
+@media (max-width: 768px) {
+    * {
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+main {
+        padding: 0;
+        text-align: center;
+}
+
+    .top-nav a {
+        margin-right: 10px;
+        font-size: 1rem;
+        color: black;
+        text-decoration: none;
+        padding: 20px 0;
+    }
+
+    nav .active {
+        text-decoration: underline;
+    }
+
+    .name {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    h1, h2, h3{
+        text-align: center;
+    }
+
+   
+
+    .quote {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    h1, h2 {
+      margin: 0 auto;
+    }
+
+    .about1 {
+        margin: 0px 0px 0px;
+    }
+  
+  
+      .skills-title {
+        text-align: center;
+        
+      }
+  
+      .about2 {
+        text-align: justify;
+         }
+  
+      
+      
+      .social {
+        padding: 10px 0px;
+      }
+
+
+}

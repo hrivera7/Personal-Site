@@ -1,0 +1,151 @@
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  margin: 50px 0 0 150px;
+}
+
+h2 {
+  margin: 5px 0px 35px 150px;
+
+}
+
+
+/* parent/container for cards */
+
+.items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 60px;
+    
+}
+
+/* individual cards */
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 300px;
+    margin-right: 40px;
+    font-size: 16px;
+    
+}
+
+.item:nth-child(3) {
+  margin-right: 0px;
+}
+
+/* top container for project name */
+
+.item-name {
+    background: rgb(104, 168, 104);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 25px 25px 0 0;
+}
+
+.item-image {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+
+}
+
+/* container for text and $$ */
+
+.fact-line {
+    background: rgb(104, 168, 104);
+    padding: 10px;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.bullet-container {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.bullet-container li {
+    padding: 5px;
+    color: black;
+    font-size: 12px;
+    margin: 0 0 0 35px;
+    line-height: 100%;
+    
+}
+
+li:nth-child(1) {
+    margin-top: 10px;
+}
+
+li:nth-child(5) {
+    margin-bottom: 10px;
+}
+
+/* price */
+
+.fact-name {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+  /* media query */
+@media (max-width: 768px) {
+
+  main {
+    padding: 0 0px 0;
+  
+  
+  }
+
+  h1 {
+    margin: 50px 0 0 0px;
+
+  }
+
+  h2 {
+    margin: 5px 0px 35px 0px;
+  
+  }
+
+  h3 {
+    font-size: 22px;
+    margin: 20px 0 0 0px;
+  }
+
+
+
+
+  .item {
+    margin-right: 0px;
+    font-size: 16px;
+    border-radius: 25px 25px 25px;
+    padding: 0px 30px 40px 30px;
+}
+  
+.bullet-container li {
+  text-align: left;
+  
+}
+
+
+
+}

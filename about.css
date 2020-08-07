@@ -1,0 +1,116 @@
+
+* {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px 20px;
+}
+
+.name {
+  margin: 0 150px 0;
+
+}
+
+
+/* divider line about */
+.line {
+  border: 0.7px solid rgb(139, 135, 135);
+  margin: 50px;
+  text-align: center;
+}
+
+.tech-skills  {
+  margin: 0px 150px 0px;
+  
+}
+
+/* text below name */
+
+.about {
+  margin: 40px 150px 0px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+/* about me text size */
+.about, .about2 {
+  font-size: 20px;
+}
+
+/* tech skills title */
+.skills-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+}
+
+/* text under tech skills title*/
+
+.about2 {
+  padding-bottom: 30px;
+  line-height: 150%;
+}
+
+.language-container  {
+  padding-bottom: 60px;
+
+}
+
+
+
+/* all languages about */
+
+.languages, .languages2, .languages3 {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding: 20px 0px;
+  text-shadow: 0px 0px 4px green;
+}
+
+/* media query */
+@media (max-width: 768px) {
+  .languages, .languages2, .languages3 {
+    font-size: 20px
+
+  }
+
+  main {
+    padding: 0 30px 20px;
+  }
+
+  .name {
+    margin: 0 50px 0;
+  
+  }
+  
+
+  h1 {
+    margin-top: 40px;
+  }
+
+  .tech-skills  {
+    margin: 0px 50px 0px;
+    
+  }
+  
+  /* text below name */
+  
+  .about {
+    margin: 40px 50px 0px;
+    text-align: justify;
+    line-height: 150%;
+  }
+
+  .about2 {
+    line-height: 150%;
+
+  }
+
+
+}
